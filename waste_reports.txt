@@ -1,0 +1,3160 @@
+---
+Waste report for Product: carrot delivered on 2022-01-09 05:30:00
+Quantity: 12.4 kgs
+Average shelf life: 200 days
+Should all be sold by: 2022-07-28 05:30:00
+
+List of sellings taken into account between: 2022-01-12 16:56:00 and 2022-02-21 16:00:00:
+
+               datetime resource_id resource_name unit  sold
+144 2022-01-12 16:56:00         41a        carrot   kg   0.7
+155 2022-01-13 18:17:00         41a        carrot   kg   0.6
+243 2022-01-19 09:03:00         41a        carrot   kg   0.7
+274 2022-01-21 11:12:00         41a        carrot   kg   5.0
+307 2022-01-24 10:37:00         41a        carrot   kg   2.4
+346 2022-01-26 15:07:00         41a        carrot   kg   1.9
+375 2022-01-28 14:07:00         41a        carrot   kg   1.9
+502 2022-02-03 09:03:00         41a        carrot   kg   1.7
+544 2022-02-06 13:32:00         41a        carrot   kg   0.5
+686 2022-02-15 12:13:00         41a        carrot   kg   0.6
+689 2022-02-15 18:59:00         41a        carrot   kg   0.9
+761 2022-02-21 16:00:00         41a        carrot   kg   1.5
+
+
+Sellings total: 18.4 kgs were sold.
+Calculated waste: -5.999999999999998 on: 2022-07-28 05:30:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit  sold
+144 2022-01-12 16:56:00         41a        carrot   kg   0.5
+155 2022-01-13 18:17:00         41a        carrot   kg   0.5
+243 2022-01-19 09:03:00         41a        carrot   kg   0.5
+274 2022-01-21 11:12:00         41a        carrot   kg   0.5
+307 2022-01-24 10:37:00         41a        carrot   kg   0.5
+346 2022-01-26 15:07:00         41a        carrot   kg   0.5
+375 2022-01-28 14:07:00         41a        carrot   kg   0.5
+502 2022-02-03 09:03:00         41a        carrot   kg   0.5
+544 2022-02-06 13:32:00         41a        carrot   kg   0.5
+686 2022-02-15 12:13:00         41a        carrot   kg   0.5
+689 2022-02-15 18:59:00         41a        carrot   kg   0.5
+761 2022-02-21 16:00:00         41a        carrot   kg   0.5
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: onion delivered on 2022-01-09 05:30:00
+Quantity: 7.4 kgs
+Average shelf life: 180 days
+Should all be sold by: 2022-07-08 05:30:00
+
+List of sellings taken into account between: 2022-01-10 18:20:00 and 2022-02-13 11:06:00:
+
+               datetime resource_id resource_name unit  sold
+90  2022-01-10 18:20:00         41d         onion   kg   0.4
+145 2022-01-12 10:04:00         41d         onion   kg   5.4
+133 2022-01-12 18:35:00         41d         onion   kg   0.3
+260 2022-01-20 17:31:00         41d         onion   kg   0.9
+321 2022-01-25 13:02:00         41d         onion   kg   2.1
+597 2022-02-09 18:31:00         41d         onion   kg   5.3
+621 2022-02-10 13:15:00         41d         onion   kg   2.3
+632 2022-02-10 18:23:00         41d         onion   kg   0.9
+643 2022-02-13 11:06:00         41d         onion   kg   3.0
+
+
+Sellings total: 20.6 kgs were sold.
+Calculated waste: -13.200000000000001 on: 2022-07-08 05:30:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+90  2022-01-10 18:20:00         41d         onion   kg  1.466667
+145 2022-01-12 10:04:00         41d         onion   kg  1.466667
+133 2022-01-12 18:35:00         41d         onion   kg  1.466667
+260 2022-01-20 17:31:00         41d         onion   kg  1.466667
+321 2022-01-25 13:02:00         41d         onion   kg  1.466667
+597 2022-02-09 18:31:00         41d         onion   kg  1.466667
+621 2022-02-10 13:15:00         41d         onion   kg  1.466667
+632 2022-02-10 18:23:00         41d         onion   kg  1.466667
+643 2022-02-13 11:06:00         41d         onion   kg  1.466667
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: blueraspberry delivered on 2022-01-09 05:42:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-16 05:42:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-06 07:21:00
+Thats 21 days 01:39:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-09 10:22:00 and 2022-02-04 09:23:00:
+
+               datetime resource_id  resource_name unit  sold
+66  2022-01-09 10:22:00         42c  blueraspberry   kg   4.7
+53  2022-01-09 13:32:00         42c  blueraspberry   kg   0.5
+117 2022-01-11 09:35:00         42c  blueraspberry   kg   0.7
+130 2022-01-12 14:13:00         42c  blueraspberry   kg   0.5
+167 2022-01-14 09:41:00         42c  blueraspberry   kg   1.2
+174 2022-01-14 12:52:00         42c  blueraspberry   kg   0.6
+173 2022-01-14 18:59:00         42c  blueraspberry   kg   1.4
+277 2022-01-21 18:26:00         42c  blueraspberry   kg   0.6
+347 2022-01-26 15:36:00         42c  blueraspberry   kg   0.3
+441 2022-02-01 18:51:00         42c  blueraspberry   kg   1.2
+530 2022-02-04 09:23:00         42c  blueraspberry   kg   0.4
+
+
+Sellings total: 12.1 kgs were sold.
+Calculated waste: -2.1999999999999993 on: 2022-01-16 05:42:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id  resource_name unit  sold
+66  2022-01-09 10:22:00         42c  blueraspberry   kg   0.2
+53  2022-01-09 13:32:00         42c  blueraspberry   kg   0.2
+117 2022-01-11 09:35:00         42c  blueraspberry   kg   0.2
+130 2022-01-12 14:13:00         42c  blueraspberry   kg   0.2
+167 2022-01-14 09:41:00         42c  blueraspberry   kg   0.2
+174 2022-01-14 12:52:00         42c  blueraspberry   kg   0.2
+173 2022-01-14 18:59:00         42c  blueraspberry   kg   0.2
+277 2022-01-21 18:26:00         42c  blueraspberry   kg   0.2
+347 2022-01-26 15:36:00         42c  blueraspberry   kg   0.2
+441 2022-02-01 18:51:00         42c  blueraspberry   kg   0.2
+530 2022-02-04 09:23:00         42c  blueraspberry   kg   0.2
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: chicory delivered on 2022-01-09 05:47:00
+Quantity: 12.4 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-01-14 05:47:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-06 07:31:00
+Thats 23 days 01:44:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-09 12:36:00 and 2022-02-03 15:02:00:
+
+               datetime resource_id resource_name unit  sold
+74  2022-01-09 12:36:00         439       chicory   kg   1.5
+78  2022-01-09 15:06:00         439       chicory   kg   0.9
+59  2022-01-09 18:31:00         439       chicory   kg   2.5
+102 2022-01-10 12:09:00         439       chicory   kg   4.3
+147 2022-01-13 16:14:00         439       chicory   kg   0.4
+217 2022-01-18 13:23:00         439       chicory   kg   1.5
+231 2022-01-19 13:13:00         439       chicory   kg   1.8
+271 2022-01-21 14:43:00         439       chicory   kg   2.9
+312 2022-01-24 10:18:00         439       chicory   kg   2.1
+343 2022-01-26 15:40:00         439       chicory   kg   5.5
+371 2022-01-28 10:58:00         439       chicory   kg   0.7
+425 2022-01-31 14:44:00         439       chicory   kg   5.3
+446 2022-02-01 17:36:00         439       chicory   kg   3.4
+496 2022-02-03 15:02:00         439       chicory   kg   3.6
+
+
+Sellings total: 36.4 kgs were sold.
+Calculated waste: -24.0 on: 2022-01-14 05:47:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+74  2022-01-09 12:36:00         439       chicory   kg  1.714286
+78  2022-01-09 15:06:00         439       chicory   kg  1.714286
+59  2022-01-09 18:31:00         439       chicory   kg  1.714286
+102 2022-01-10 12:09:00         439       chicory   kg  1.714286
+147 2022-01-13 16:14:00         439       chicory   kg  1.714286
+217 2022-01-18 13:23:00         439       chicory   kg  1.714286
+231 2022-01-19 13:13:00         439       chicory   kg  1.714286
+271 2022-01-21 14:43:00         439       chicory   kg  1.714286
+312 2022-01-24 10:18:00         439       chicory   kg  1.714286
+343 2022-01-26 15:40:00         439       chicory   kg  1.714286
+371 2022-01-28 10:58:00         439       chicory   kg  1.714286
+425 2022-01-31 14:44:00         439       chicory   kg  1.714286
+446 2022-02-01 17:36:00         439       chicory   kg  1.714286
+496 2022-02-03 15:02:00         439       chicory   kg  1.714286
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: lemon delivered on 2022-01-09 05:48:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-16 05:48:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-30 05:03:00
+Thats 13 days 23:15:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-10 17:29:00 and 2022-01-26 12:21:00:
+
+               datetime resource_id resource_name unit  sold
+89  2022-01-10 17:29:00         424         lemon   kg   1.9
+141 2022-01-12 14:37:00         424         lemon   kg   5.6
+161 2022-01-13 11:22:00         424         lemon   kg   0.4
+149 2022-01-13 18:21:00         424         lemon   kg   0.9
+199 2022-01-17 16:45:00         424         lemon   kg   1.2
+256 2022-01-20 11:18:00         424         lemon   kg   1.0
+269 2022-01-21 12:11:00         424         lemon   kg   4.2
+350 2022-01-26 12:21:00         424         lemon   kg   0.4
+
+
+Sellings total: 15.600000000000001 kgs were sold.
+Calculated waste: -8.200000000000001 on: 2022-01-16 05:48:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit   sold
+89  2022-01-10 17:29:00         424         lemon   kg  1.025
+141 2022-01-12 14:37:00         424         lemon   kg  1.025
+161 2022-01-13 11:22:00         424         lemon   kg  1.025
+149 2022-01-13 18:21:00         424         lemon   kg  1.025
+199 2022-01-17 16:45:00         424         lemon   kg  1.025
+256 2022-01-20 11:18:00         424         lemon   kg  1.025
+269 2022-01-21 12:11:00         424         lemon   kg  1.025
+350 2022-01-26 12:21:00         424         lemon   kg  1.025
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: date delivered on 2022-01-09 05:50:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-16 05:50:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-16 07:00:00
+Thats 0 days 01:10:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-12 10:56:00 and 2022-01-13 09:42:00:
+
+               datetime resource_id resource_name unit  sold
+138 2022-01-12 10:56:00         41e          date   kg   0.5
+131 2022-01-12 13:48:00         41e          date   kg   1.0
+158 2022-01-13 09:42:00         41e          date   kg   2.9
+
+
+Sellings total: 4.4 kgs were sold.
+Calculated waste: 3.0 on: 2022-01-16 05:50:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: strawberry delivered on 2022-01-09 06:18:00
+Quantity: 17.4 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-01-14 06:18:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-16 07:55:00
+Thats 2 days 01:37:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-10 11:55:00 and 2022-01-13 13:26:00:
+
+               datetime resource_id resource_name unit  sold
+103 2022-01-10 11:55:00         420    strawberry   kg   0.4
+137 2022-01-12 15:02:00         420    strawberry   kg   1.8
+154 2022-01-13 13:26:00         420    strawberry   kg   4.3
+
+
+Sellings total: 6.5 kgs were sold.
+Calculated waste: 10.899999999999999 on: 2022-01-14 06:18:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: fishing delivered on 2022-01-09 06:49:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-16 06:49:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-01-16 06:49:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: fishing delivered on 2022-01-09 07:13:00
+Quantity: 14.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-16 07:13:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 14.9 on: 2022-01-16 07:13:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: spinach delivered on 2022-01-09 07:14:00
+Quantity: 17.4 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-01-19 07:14:00
+
+List of sellings taken into account between: 2022-01-12 15:08:00 and 2022-01-12 15:08:00:
+
+               datetime resource_id resource_name unit  sold
+139 2022-01-12 15:08:00         43c       spinach   kg   0.3
+
+
+Sellings total: 0.3 kgs were sold.
+Calculated waste: 17.099999999999998 on: 2022-01-19 07:14:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: apple delivered on 2022-01-09 07:26:00
+Quantity: 14.9 kgs
+Average shelf life: 250 days
+Should all be sold by: 2022-09-16 07:26:00
+
+List of sellings taken into account between: 2022-01-10 18:22:00 and 2022-02-23 12:28:00:
+
+               datetime resource_id resource_name unit  sold
+85  2022-01-10 18:22:00         428         apple   kg   0.4
+118 2022-01-11 18:14:00         428         apple   kg   0.5
+122 2022-01-12 14:30:00         428         apple   kg   0.3
+403 2022-01-30 11:48:00         428         apple   kg   4.6
+426 2022-01-31 13:29:00         428         apple   kg   0.3
+460 2022-02-02 14:49:00         428         apple   kg   3.4
+498 2022-02-03 17:06:00         428         apple   kg   0.9
+619 2022-02-10 14:06:00         428         apple   kg   2.0
+658 2022-02-13 10:31:00         428         apple   kg   0.5
+714 2022-02-17 13:03:00         428         apple   kg   0.7
+789 2022-02-22 09:37:00         428         apple   kg   0.3
+795 2022-02-23 12:28:00         428         apple   kg   0.4
+
+
+Sellings total: 14.299999999999999 kgs were sold.
+Calculated waste: 0.6000000000000014 on: 2022-09-16 07:26:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: grapefruit delivered on 2022-01-09 07:26:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-16 07:26:00
+
+List of sellings taken into account between: 2022-01-09 10:29:00 and 2022-01-09 10:29:00:
+
+              datetime resource_id resource_name unit  sold
+60 2022-01-09 10:29:00         437    grapefruit   kg   0.5
+
+
+Sellings total: 0.5 kgs were sold.
+Calculated waste: 11.9 on: 2022-01-16 07:26:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: potato delivered on 2022-01-09 07:44:00
+Quantity: 17.4 kgs
+Average shelf life: 120 days
+Should all be sold by: 2022-05-09 07:44:00
+
+List of sellings taken into account between: 2022-01-10 16:31:00 and 2022-02-24 11:32:00:
+
+               datetime resource_id resource_name unit  sold
+99  2022-01-10 16:31:00         431        potato   kg   5.7
+93  2022-01-10 16:32:00         431        potato   kg   0.4
+197 2022-01-17 13:45:00         431        potato   kg   5.4
+229 2022-01-19 18:28:00         431        potato   kg   3.0
+311 2022-01-24 09:51:00         431        potato   kg   0.3
+384 2022-01-28 12:14:00         431        potato   kg   5.3
+485 2022-02-03 17:51:00         431        potato   kg   0.5
+488 2022-02-03 18:09:00         431        potato   kg   3.5
+529 2022-02-04 10:29:00         431        potato   kg   2.3
+638 2022-02-11 18:34:00         431        potato   kg   4.5
+645 2022-02-13 17:55:00         431        potato   kg   0.4
+676 2022-02-14 10:35:00         431        potato   kg   0.9
+673 2022-02-14 14:53:00         431        potato   kg   5.7
+668 2022-02-14 15:43:00         431        potato   kg   0.5
+702 2022-02-16 14:18:00         431        potato   kg   3.3
+723 2022-02-18 15:58:00         431        potato   kg   0.4
+729 2022-02-18 16:40:00         431        potato   kg   0.6
+751 2022-02-20 09:30:00         431        potato   kg   2.0
+758 2022-02-20 16:36:00         431        potato   kg   1.6
+778 2022-02-22 14:43:00         431        potato   kg   5.7
+820 2022-02-24 11:32:00         431        potato   kg   0.3
+
+
+Sellings total: 52.300000000000004 kgs were sold.
+Calculated waste: -34.900000000000006 on: 2022-05-09 07:44:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+99  2022-01-10 16:31:00         431        potato   kg  1.661905
+93  2022-01-10 16:32:00         431        potato   kg  1.661905
+197 2022-01-17 13:45:00         431        potato   kg  1.661905
+229 2022-01-19 18:28:00         431        potato   kg  1.661905
+311 2022-01-24 09:51:00         431        potato   kg  1.661905
+384 2022-01-28 12:14:00         431        potato   kg  1.661905
+485 2022-02-03 17:51:00         431        potato   kg  1.661905
+488 2022-02-03 18:09:00         431        potato   kg  1.661905
+529 2022-02-04 10:29:00         431        potato   kg  1.661905
+638 2022-02-11 18:34:00         431        potato   kg  1.661905
+645 2022-02-13 17:55:00         431        potato   kg  1.661905
+676 2022-02-14 10:35:00         431        potato   kg  1.661905
+673 2022-02-14 14:53:00         431        potato   kg  1.661905
+668 2022-02-14 15:43:00         431        potato   kg  1.661905
+702 2022-02-16 14:18:00         431        potato   kg  1.661905
+723 2022-02-18 15:58:00         431        potato   kg  1.661905
+729 2022-02-18 16:40:00         431        potato   kg  1.661905
+751 2022-02-20 09:30:00         431        potato   kg  1.661905
+758 2022-02-20 16:36:00         431        potato   kg  1.661905
+778 2022-02-22 14:43:00         431        potato   kg  1.661905
+820 2022-02-24 11:32:00         431        potato   kg  1.661905
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: watermelon delivered on 2022-01-09 07:44:00
+Quantity: 17.4 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-01-23 07:44:00
+
+List of sellings taken into account between: 2022-01-09 13:53:00 and 2022-01-19 12:59:00:
+
+               datetime resource_id resource_name unit  sold
+58  2022-01-09 13:53:00         413    watermelon   kg   3.2
+227 2022-01-19 12:59:00         413    watermelon   kg   1.4
+
+
+Sellings total: 4.6 kgs were sold.
+Calculated waste: 12.799999999999999 on: 2022-01-23 07:44:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: melon delivered on 2022-01-09 08:00:00
+Quantity: 9.9 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-01-23 08:00:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-30 06:08:00
+Thats 6 days 22:08:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-10 18:55:00 and 2022-01-23 10:59:00:
+
+               datetime resource_id resource_name unit  sold
+88  2022-01-10 18:55:00         42a         melon   kg   0.7
+179 2022-01-14 17:05:00         42a         melon   kg   0.3
+210 2022-01-18 14:07:00         42a         melon   kg   0.5
+259 2022-01-20 12:21:00         42a         melon   kg   0.6
+264 2022-01-20 17:02:00         42a         melon   kg   1.5
+276 2022-01-21 17:05:00         42a         melon   kg   4.9
+287 2022-01-23 10:59:00         42a         melon   kg   0.3
+
+
+Sellings total: 8.8 kgs were sold.
+Calculated waste: 1.0999999999999996 on: 2022-01-23 08:00:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: spinach delivered on 2022-01-16 05:07:00
+Quantity: 7.4 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-01-26 05:07:00
+
+List of sellings taken into account between: 2022-01-19 17:49:00 and 2022-01-23 18:20:00:
+
+               datetime resource_id resource_name unit  sold
+236 2022-01-19 17:49:00         43c       spinach   kg   4.5
+294 2022-01-23 13:46:00         43c       spinach   kg   0.9
+293 2022-01-23 18:20:00         43c       spinach   kg   1.8
+
+
+Sellings total: 7.2 kgs were sold.
+Calculated waste: 0.20000000000000018 on: 2022-01-26 05:07:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: pumpkin delivered on 2022-01-16 05:15:00
+Quantity: 19.9 kgs
+Average shelf life: 60 days
+Should all be sold by: 2022-03-17 05:15:00
+
+List of sellings taken into account between: 2022-01-19 14:35:00 and 2022-02-25 18:46:00:
+
+               datetime resource_id resource_name unit  sold
+241 2022-01-19 14:35:00         43e       pumpkin   kg   4.1
+235 2022-01-19 15:48:00         43e       pumpkin   kg   0.5
+230 2022-01-19 17:38:00         43e       pumpkin   kg   1.2
+349 2022-01-26 17:55:00         43e       pumpkin   kg   0.4
+433 2022-02-01 16:33:00         43e       pumpkin   kg   5.2
+525 2022-02-04 14:10:00         43e       pumpkin   kg   3.9
+552 2022-02-06 17:08:00         43e       pumpkin   kg   0.9
+665 2022-02-13 14:26:00         43e       pumpkin   kg   0.3
+717 2022-02-18 09:54:00         43e       pumpkin   kg   0.9
+798 2022-02-23 11:40:00         43e       pumpkin   kg   1.0
+809 2022-02-24 18:37:00         43e       pumpkin   kg   5.1
+824 2022-02-25 18:46:00         43e       pumpkin   kg   0.3
+
+
+Sellings total: 23.8 kgs were sold.
+Calculated waste: -3.900000000000002 on: 2022-03-17 05:15:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit   sold
+241 2022-01-19 14:35:00         43e       pumpkin   kg  0.325
+235 2022-01-19 15:48:00         43e       pumpkin   kg  0.325
+230 2022-01-19 17:38:00         43e       pumpkin   kg  0.325
+349 2022-01-26 17:55:00         43e       pumpkin   kg  0.325
+433 2022-02-01 16:33:00         43e       pumpkin   kg  0.325
+525 2022-02-04 14:10:00         43e       pumpkin   kg  0.325
+552 2022-02-06 17:08:00         43e       pumpkin   kg  0.325
+665 2022-02-13 14:26:00         43e       pumpkin   kg  0.325
+717 2022-02-18 09:54:00         43e       pumpkin   kg  0.325
+798 2022-02-23 11:40:00         43e       pumpkin   kg  0.325
+809 2022-02-24 18:37:00         43e       pumpkin   kg  0.325
+824 2022-02-25 18:46:00         43e       pumpkin   kg  0.325
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: raspberry delivered on 2022-01-16 05:28:00
+Quantity: 19.9 kgs
+Average shelf life: 2 days
+Should all be sold by: 2022-01-18 05:28:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-23 05:10:00
+Thats 4 days 23:42:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 19.9 on: 2022-01-18 05:28:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: carrot delivered on 2022-01-16 05:47:00
+Quantity: 19.9 kgs
+Average shelf life: 200 days
+Should all be sold by: 2022-08-04 05:47:00
+
+List of sellings taken into account between: 2022-01-19 09:03:00 and 2022-02-21 16:00:00:
+
+               datetime resource_id resource_name unit  sold
+243 2022-01-19 09:03:00         41a        carrot   kg   0.5
+274 2022-01-21 11:12:00         41a        carrot   kg   0.5
+307 2022-01-24 10:37:00         41a        carrot   kg   0.5
+346 2022-01-26 15:07:00         41a        carrot   kg   0.5
+375 2022-01-28 14:07:00         41a        carrot   kg   0.5
+502 2022-02-03 09:03:00         41a        carrot   kg   0.5
+544 2022-02-06 13:32:00         41a        carrot   kg   0.5
+686 2022-02-15 12:13:00         41a        carrot   kg   0.5
+689 2022-02-15 18:59:00         41a        carrot   kg   0.5
+761 2022-02-21 16:00:00         41a        carrot   kg   0.5
+
+
+Sellings total: 4.999999999999998 kgs were sold.
+Calculated waste: 14.9 on: 2022-08-04 05:47:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: zuchini delivered on 2022-01-16 05:48:00
+Quantity: 14.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-23 05:48:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-30 06:40:00
+Thats 7 days 00:52:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-18 14:07:00 and 2022-01-23 12:04:00:
+
+               datetime resource_id resource_name unit  sold
+215 2022-01-18 14:07:00         43f       zuchini   kg   0.9
+292 2022-01-23 12:04:00         43f       zuchini   kg   0.4
+
+
+Sellings total: 1.3 kgs were sold.
+Calculated waste: 13.6 on: 2022-01-23 05:48:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: pear delivered on 2022-01-16 05:54:00
+Quantity: 14.9 kgs
+Average shelf life: 150 days
+Should all be sold by: 2022-06-15 05:54:00
+
+List of sellings taken into account between: 2022-01-17 18:06:00 and 2022-02-25 13:06:00:
+
+               datetime resource_id resource_name unit  sold
+198 2022-01-17 18:06:00         434          pear   kg   0.6
+314 2022-01-24 17:53:00         434          pear   kg   0.7
+413 2022-01-31 13:52:00         434          pear   kg   0.6
+497 2022-02-03 09:42:00         434          pear   kg   0.4
+624 2022-02-10 17:57:00         434          pear   kg   0.7
+680 2022-02-15 17:21:00         434          pear   kg   0.3
+699 2022-02-15 17:52:00         434          pear   kg   4.0
+725 2022-02-18 16:21:00         434          pear   kg   0.4
+788 2022-02-22 11:34:00         434          pear   kg   0.3
+830 2022-02-25 13:06:00         434          pear   kg   3.4
+
+
+Sellings total: 11.4 kgs were sold.
+Calculated waste: 3.5 on: 2022-06-15 05:54:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: blueberry delivered on 2022-01-16 06:05:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-23 06:05:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-30 05:08:00
+Thats 6 days 23:03:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-18 12:27:00 and 2022-01-28 15:17:00:
+
+               datetime resource_id resource_name unit  sold
+225 2022-01-18 12:27:00         42b     blueberry   kg   1.4
+248 2022-01-20 10:21:00         42b     blueberry   kg   0.6
+253 2022-01-20 17:00:00         42b     blueberry   kg   0.3
+323 2022-01-25 18:46:00         42b     blueberry   kg   0.3
+377 2022-01-28 15:17:00         42b     blueberry   kg   0.3
+
+
+Sellings total: 2.8999999999999995 kgs were sold.
+Calculated waste: 9.5 on: 2022-01-23 06:05:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: papaya delivered on 2022-01-16 06:06:00
+Quantity: 14.9 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-01-26 06:06:00
+
+List of sellings taken into account between: 2022-01-20 17:29:00 and 2022-01-20 17:29:00:
+
+               datetime resource_id resource_name unit  sold
+266 2022-01-20 17:29:00         430        papaya   kg   0.6
+
+
+Sellings total: 0.6 kgs were sold.
+Calculated waste: 14.3 on: 2022-01-26 06:06:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: blackcherry delivered on 2022-01-16 06:09:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-23 06:09:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-23 06:45:00
+Thats 0 days 00:36:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-17 14:15:00 and 2022-01-21 13:30:00:
+
+               datetime resource_id resource_name unit  sold
+201 2022-01-17 14:15:00         411   blackcherry   kg   3.1
+228 2022-01-19 09:30:00         411   blackcherry   kg   3.8
+272 2022-01-21 13:30:00         411   blackcherry   kg   1.7
+
+
+Sellings total: 8.6 kgs were sold.
+Calculated waste: 8.799999999999999 on: 2022-01-23 06:09:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: caper delivered on 2022-01-16 06:35:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-23 06:35:00
+
+List of sellings taken into account between: 2022-01-16 18:14:00 and 2022-01-20 18:46:00:
+
+               datetime resource_id resource_name unit  sold
+195 2022-01-16 18:14:00         418         caper   kg   0.6
+213 2022-01-18 11:00:00         418         caper   kg   0.9
+221 2022-01-18 11:24:00         418         caper   kg   0.7
+250 2022-01-20 18:46:00         418         caper   kg   0.6
+
+
+Sellings total: 2.8000000000000003 kgs were sold.
+Calculated waste: 9.6 on: 2022-01-23 06:35:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: aubergine delivered on 2022-01-16 06:38:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-23 06:38:00
+
+List of sellings taken into account between: 2022-01-16 11:06:00 and 2022-01-21 13:18:00:
+
+               datetime resource_id resource_name unit  sold
+183 2022-01-16 11:06:00         427     aubergine   kg   5.0
+247 2022-01-20 09:56:00         427     aubergine   kg   0.9
+252 2022-01-20 12:01:00         427     aubergine   kg   0.7
+281 2022-01-21 13:18:00         427     aubergine   kg   0.7
+
+
+Sellings total: 7.300000000000001 kgs were sold.
+Calculated waste: 5.1 on: 2022-01-23 06:38:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: pineapple delivered on 2022-01-16 06:52:00
+Quantity: 9.9 kgs
+Average shelf life: 20 days
+Should all be sold by: 2022-02-05 06:52:00
+
+List of sellings taken into account between: 2022-01-26 09:11:00 and 2022-02-04 18:15:00:
+
+               datetime resource_id resource_name unit  sold
+332 2022-01-26 09:11:00         412     pineapple   kg   0.5
+372 2022-01-28 10:41:00         412     pineapple   kg   4.4
+400 2022-01-30 11:24:00         412     pineapple   kg   5.6
+447 2022-02-01 09:45:00         412     pineapple   kg   0.3
+472 2022-02-02 13:54:00         412     pineapple   kg   2.6
+536 2022-02-04 11:58:00         412     pineapple   kg   0.5
+512 2022-02-04 18:15:00         412     pineapple   kg   1.0
+
+
+Sellings total: 14.9 kgs were sold.
+Calculated waste: -5.0 on: 2022-02-05 06:52:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+332 2022-01-26 09:11:00         412     pineapple   kg  0.714286
+372 2022-01-28 10:41:00         412     pineapple   kg  0.714286
+400 2022-01-30 11:24:00         412     pineapple   kg  0.714286
+447 2022-02-01 09:45:00         412     pineapple   kg  0.714286
+472 2022-02-02 13:54:00         412     pineapple   kg  0.714286
+536 2022-02-04 11:58:00         412     pineapple   kg  0.714286
+512 2022-02-04 18:15:00         412     pineapple   kg  0.714286
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: kiwi delivered on 2022-01-16 06:59:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-23 06:59:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-20 06:36:00
+Thats 27 days 23:37:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-16 09:11:00 and 2022-02-14 18:37:00:
+
+               datetime resource_id resource_name unit  sold
+192 2022-01-16 09:11:00         421          kiwi   kg   3.7
+296 2022-01-24 09:17:00         421          kiwi   kg   0.7
+308 2022-01-24 09:54:00         421          kiwi   kg   0.7
+334 2022-01-26 18:27:00         421          kiwi   kg   1.3
+369 2022-01-28 18:10:00         421          kiwi   kg   3.4
+389 2022-01-28 18:57:00         421          kiwi   kg   1.9
+412 2022-01-31 12:24:00         421          kiwi   kg   0.3
+479 2022-02-02 11:43:00         421          kiwi   kg   2.8
+501 2022-02-03 13:44:00         421          kiwi   kg   1.4
+493 2022-02-03 15:35:00         421          kiwi   kg   3.6
+494 2022-02-03 18:19:00         421          kiwi   kg   3.4
+553 2022-02-06 16:02:00         421          kiwi   kg   0.6
+563 2022-02-07 10:02:00         421          kiwi   kg   1.4
+625 2022-02-10 17:47:00         421          kiwi   kg   2.1
+677 2022-02-14 18:37:00         421          kiwi   kg   1.0
+
+
+Sellings total: 28.3 kgs were sold.
+Calculated waste: -15.9 on: 2022-01-23 06:59:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit  sold
+192 2022-01-16 09:11:00         421          kiwi   kg  1.06
+296 2022-01-24 09:17:00         421          kiwi   kg  1.06
+308 2022-01-24 09:54:00         421          kiwi   kg  1.06
+334 2022-01-26 18:27:00         421          kiwi   kg  1.06
+369 2022-01-28 18:10:00         421          kiwi   kg  1.06
+389 2022-01-28 18:57:00         421          kiwi   kg  1.06
+412 2022-01-31 12:24:00         421          kiwi   kg  1.06
+479 2022-02-02 11:43:00         421          kiwi   kg  1.06
+501 2022-02-03 13:44:00         421          kiwi   kg  1.06
+493 2022-02-03 15:35:00         421          kiwi   kg  1.06
+494 2022-02-03 18:19:00         421          kiwi   kg  1.06
+553 2022-02-06 16:02:00         421          kiwi   kg  1.06
+563 2022-02-07 10:02:00         421          kiwi   kg  1.06
+625 2022-02-10 17:47:00         421          kiwi   kg  1.06
+677 2022-02-14 18:37:00         421          kiwi   kg  1.06
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: date delivered on 2022-01-16 07:00:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-23 07:00:00
+
+List of sellings taken into account between: 2022-01-16 18:53:00 and 2022-01-16 18:53:00:
+
+               datetime resource_id resource_name unit  sold
+194 2022-01-16 18:53:00         41e          date   kg   0.6
+
+
+Sellings total: 0.6 kgs were sold.
+Calculated waste: 11.8 on: 2022-01-23 07:00:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: pineapple delivered on 2022-01-16 07:02:00
+Quantity: 7.4 kgs
+Average shelf life: 20 days
+Should all be sold by: 2022-02-05 07:02:00
+
+List of sellings taken into account between: 2022-01-26 09:11:00 and 2022-02-04 18:15:00:
+
+               datetime resource_id resource_name unit      sold
+332 2022-01-26 09:11:00         412     pineapple   kg  0.714286
+372 2022-01-28 10:41:00         412     pineapple   kg  0.714286
+400 2022-01-30 11:24:00         412     pineapple   kg  0.714286
+447 2022-02-01 09:45:00         412     pineapple   kg  0.714286
+472 2022-02-02 13:54:00         412     pineapple   kg  0.714286
+536 2022-02-04 11:58:00         412     pineapple   kg  0.714286
+512 2022-02-04 18:15:00         412     pineapple   kg  0.714286
+
+
+Sellings total: 5.0 kgs were sold.
+Calculated waste: 2.4000000000000004 on: 2022-02-05 07:02:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: spinach delivered on 2022-01-16 07:28:00
+Quantity: 7.4 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-01-26 07:28:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-01-26 07:28:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: strawberry delivered on 2022-01-16 07:55:00
+Quantity: 9.9 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-01-21 07:55:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-23 07:59:00
+Thats 2 days 00:04:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-20 18:16:00 and 2022-01-20 18:16:00:
+
+               datetime resource_id resource_name unit  sold
+265 2022-01-20 18:16:00         420    strawberry   kg   0.6
+
+
+Sellings total: 0.6 kgs were sold.
+Calculated waste: 9.3 on: 2022-01-21 07:55:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: raspberry delivered on 2022-01-23 05:10:00
+Quantity: 7.4 kgs
+Average shelf life: 2 days
+Should all be sold by: 2022-01-25 05:10:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-01-30 07:15:00
+Thats 5 days 02:05:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-23 14:27:00 and 2022-01-27 16:35:00:
+
+               datetime resource_id resource_name unit  sold
+289 2022-01-23 14:27:00         422     raspberry   kg   3.7
+298 2022-01-24 10:23:00         422     raspberry   kg   0.4
+309 2022-01-24 17:12:00         422     raspberry   kg   1.5
+361 2022-01-27 16:35:00         422     raspberry   kg   2.3
+
+
+Sellings total: 7.9 kgs were sold.
+Calculated waste: -0.5 on: 2022-01-25 05:10:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit   sold
+289 2022-01-23 14:27:00         422     raspberry   kg  0.125
+298 2022-01-24 10:23:00         422     raspberry   kg  0.125
+309 2022-01-24 17:12:00         422     raspberry   kg  0.125
+361 2022-01-27 16:35:00         422     raspberry   kg  0.125
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: cherry delivered on 2022-01-23 05:40:00
+Quantity: 17.4 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-02-06 05:40:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-06 06:29:00
+Thats 0 days 00:49:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-25 17:26:00 and 2022-02-03 13:36:00:
+
+               datetime resource_id resource_name unit  sold
+320 2022-01-25 17:26:00         41c        cherry   kg   2.6
+355 2022-01-27 18:51:00         41c        cherry   kg   0.9
+368 2022-01-28 18:20:00         41c        cherry   kg   1.2
+415 2022-01-31 18:52:00         41c        cherry   kg   5.1
+429 2022-02-01 17:30:00         41c        cherry   kg   0.7
+481 2022-02-03 13:36:00         41c        cherry   kg   2.1
+
+
+Sellings total: 12.6 kgs were sold.
+Calculated waste: 4.799999999999999 on: 2022-02-06 05:40:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: tomato delivered on 2022-01-23 05:46:00
+Quantity: 19.9 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-01-28 05:46:00
+
+List of sellings taken into account between: 2022-01-26 16:34:00 and 2022-01-26 18:48:00:
+
+               datetime resource_id resource_name unit  sold
+340 2022-01-26 16:34:00         436        tomato   kg   2.7
+344 2022-01-26 17:32:00         436        tomato   kg   2.5
+339 2022-01-26 18:48:00         436        tomato   kg   0.9
+
+
+Sellings total: 6.1000000000000005 kgs were sold.
+Calculated waste: 13.799999999999997 on: 2022-01-28 05:46:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: orange delivered on 2022-01-23 05:59:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-30 05:59:00
+
+List of sellings taken into account between: 2022-01-26 15:23:00 and 2022-01-28 16:55:00:
+
+               datetime resource_id resource_name unit  sold
+352 2022-01-26 15:23:00         414        orange   kg   0.3
+376 2022-01-28 15:48:00         414        orange   kg   0.3
+374 2022-01-28 16:17:00         414        orange   kg   4.8
+362 2022-01-28 16:55:00         414        orange   kg   1.7
+
+
+Sellings total: 7.1 kgs were sold.
+Calculated waste: 2.8000000000000007 on: 2022-01-30 05:59:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: avocado delivered on 2022-01-23 06:00:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-30 06:00:00
+
+List of sellings taken into account between: 2022-01-26 12:59:00 and 2022-01-28 17:18:00:
+
+               datetime resource_id resource_name unit  sold
+330 2022-01-26 12:59:00         415       avocado   kg   0.6
+386 2022-01-28 17:18:00         415       avocado   kg   0.6
+
+
+Sellings total: 1.2 kgs were sold.
+Calculated waste: 6.2 on: 2022-01-30 06:00:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: coconut delivered on 2022-01-23 06:23:00
+Quantity: 12.4 kgs
+Average shelf life: 30 days
+Should all be sold by: 2022-02-22 06:23:00
+
+List of sellings taken into account between: 2022-02-07 09:47:00 and 2022-02-21 15:24:00:
+
+               datetime resource_id resource_name unit  sold
+579 2022-02-07 09:47:00         42e       coconut   kg   2.4
+634 2022-02-11 11:46:00         42e       coconut   kg   0.6
+744 2022-02-20 09:01:00         42e       coconut   kg   0.5
+756 2022-02-20 10:55:00         42e       coconut   kg   3.1
+762 2022-02-21 09:10:00         42e       coconut   kg   0.5
+765 2022-02-21 15:24:00         42e       coconut   kg   4.1
+
+
+Sellings total: 11.2 kgs were sold.
+Calculated waste: 1.200000000000001 on: 2022-02-22 06:23:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: caper delivered on 2022-01-23 06:29:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-30 06:29:00
+
+List of sellings taken into account between: 2022-01-24 11:53:00 and 2022-01-28 15:51:00:
+
+               datetime resource_id resource_name unit  sold
+304 2022-01-24 11:53:00         418         caper   kg   2.9
+354 2022-01-27 16:17:00         418         caper   kg   2.5
+370 2022-01-28 15:51:00         418         caper   kg   2.1
+
+
+Sellings total: 7.5 kgs were sold.
+Calculated waste: 2.4000000000000004 on: 2022-01-30 06:29:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: aubergine delivered on 2022-01-23 06:30:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-30 06:30:00
+
+List of sellings taken into account between: 2022-01-23 18:04:00 and 2022-01-28 15:58:00:
+
+               datetime resource_id resource_name unit  sold
+291 2022-01-23 18:04:00         427     aubergine   kg   2.9
+322 2022-01-25 16:38:00         427     aubergine   kg   3.7
+353 2022-01-26 13:58:00         427     aubergine   kg   0.5
+328 2022-01-26 18:35:00         427     aubergine   kg   1.0
+391 2022-01-28 15:58:00         427     aubergine   kg   1.3
+
+
+Sellings total: 9.4 kgs were sold.
+Calculated waste: -2.0 on: 2022-01-30 06:30:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit  sold
+291 2022-01-23 18:04:00         427     aubergine   kg   0.4
+322 2022-01-25 16:38:00         427     aubergine   kg   0.4
+353 2022-01-26 13:58:00         427     aubergine   kg   0.4
+328 2022-01-26 18:35:00         427     aubergine   kg   0.4
+391 2022-01-28 15:58:00         427     aubergine   kg   0.4
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: blackcherry delivered on 2022-01-23 06:45:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-01-30 06:45:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-27 05:04:00
+Thats 27 days 22:19:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-24 12:03:00 and 2022-02-24 16:43:00:
+
+               datetime resource_id resource_name unit  sold
+301 2022-01-24 12:03:00         411   blackcherry   kg   1.8
+363 2022-01-28 11:55:00         411   blackcherry   kg   1.0
+427 2022-02-01 14:08:00         411   blackcherry   kg   4.2
+560 2022-02-06 14:39:00         411   blackcherry   kg   1.5
+582 2022-02-07 09:32:00         411   blackcherry   kg   0.7
+592 2022-02-08 18:30:00         411   blackcherry   kg   5.6
+720 2022-02-18 13:42:00         411   blackcherry   kg   2.6
+808 2022-02-24 16:43:00         411   blackcherry   kg   0.6
+
+
+Sellings total: 18.0 kgs were sold.
+Calculated waste: -0.6000000000000014 on: 2022-01-30 06:45:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit   sold
+301 2022-01-24 12:03:00         411   blackcherry   kg  0.075
+363 2022-01-28 11:55:00         411   blackcherry   kg  0.075
+427 2022-02-01 14:08:00         411   blackcherry   kg  0.075
+560 2022-02-06 14:39:00         411   blackcherry   kg  0.075
+582 2022-02-07 09:32:00         411   blackcherry   kg  0.075
+592 2022-02-08 18:30:00         411   blackcherry   kg  0.075
+720 2022-02-18 13:42:00         411   blackcherry   kg  0.075
+808 2022-02-24 16:43:00         411   blackcherry   kg  0.075
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: apple delivered on 2022-01-23 07:09:00
+Quantity: 12.4 kgs
+Average shelf life: 250 days
+Should all be sold by: 2022-09-30 07:09:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-09-30 07:09:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: fig delivered on 2022-01-23 07:32:00
+Quantity: 7.4 kgs
+Average shelf life: 30 days
+Should all be sold by: 2022-02-22 07:32:00
+
+List of sellings taken into account between: 2022-01-23 16:43:00 and 2022-02-20 09:58:00:
+
+               datetime resource_id resource_name unit  sold
+288 2022-01-23 16:43:00         41f           fig   kg   0.5
+310 2022-01-24 16:46:00         41f           fig   kg   2.4
+379 2022-01-28 09:59:00         41f           fig   kg   0.9
+406 2022-01-30 15:41:00         41f           fig   kg   0.6
+513 2022-02-04 09:32:00         41f           fig   kg   0.7
+531 2022-02-04 17:31:00         41f           fig   kg   4.6
+562 2022-02-07 14:40:00         41f           fig   kg   0.3
+606 2022-02-09 17:29:00         41f           fig   kg   0.7
+631 2022-02-10 12:51:00         41f           fig   kg   4.2
+636 2022-02-11 09:30:00         41f           fig   kg   1.3
+649 2022-02-13 11:40:00         41f           fig   kg   1.2
+724 2022-02-18 15:45:00         41f           fig   kg   4.4
+746 2022-02-20 09:58:00         41f           fig   kg   4.6
+
+
+Sellings total: 26.4 kgs were sold.
+Calculated waste: -19.0 on: 2022-02-22 07:32:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+288 2022-01-23 16:43:00         41f           fig   kg  1.461538
+310 2022-01-24 16:46:00         41f           fig   kg  1.461538
+379 2022-01-28 09:59:00         41f           fig   kg  1.461538
+406 2022-01-30 15:41:00         41f           fig   kg  1.461538
+513 2022-02-04 09:32:00         41f           fig   kg  1.461538
+531 2022-02-04 17:31:00         41f           fig   kg  1.461538
+562 2022-02-07 14:40:00         41f           fig   kg  1.461538
+606 2022-02-09 17:29:00         41f           fig   kg  1.461538
+631 2022-02-10 12:51:00         41f           fig   kg  1.461538
+636 2022-02-11 09:30:00         41f           fig   kg  1.461538
+649 2022-02-13 11:40:00         41f           fig   kg  1.461538
+724 2022-02-18 15:45:00         41f           fig   kg  1.461538
+746 2022-02-20 09:58:00         41f           fig   kg  1.461538
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: tomato delivered on 2022-01-23 07:45:00
+Quantity: 9.9 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-01-28 07:45:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-13 06:14:00
+Thats 15 days 22:29:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-28 10:00:00 and 2022-02-01 16:34:00:
+
+               datetime resource_id resource_name unit  sold
+366 2022-01-28 10:00:00         436        tomato   kg   0.6
+373 2022-01-28 17:31:00         436        tomato   kg   0.6
+432 2022-02-01 16:34:00         436        tomato   kg   2.1
+
+
+Sellings total: 3.3 kgs were sold.
+Calculated waste: 6.6000000000000005 on: 2022-01-28 07:45:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: spinach delivered on 2022-01-23 07:55:00
+Quantity: 17.4 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-02-02 07:55:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-13 07:28:00
+Thats 10 days 23:33:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-26 10:09:00 and 2022-02-09 13:32:00:
+
+               datetime resource_id resource_name unit  sold
+336 2022-01-26 10:09:00         43c       spinach   kg   0.7
+327 2022-01-26 12:11:00         43c       spinach   kg   0.9
+351 2022-01-26 14:25:00         43c       spinach   kg   1.0
+360 2022-01-27 11:52:00         43c       spinach   kg   0.6
+414 2022-01-31 10:39:00         43c       spinach   kg   0.3
+431 2022-02-01 19:00:00         43c       spinach   kg   1.0
+534 2022-02-04 10:02:00         43c       spinach   kg   1.9
+524 2022-02-04 10:40:00         43c       spinach   kg   0.3
+608 2022-02-09 13:32:00         43c       spinach   kg   1.6
+
+
+Sellings total: 8.3 kgs were sold.
+Calculated waste: 9.099999999999998 on: 2022-02-02 07:55:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: strawberry delivered on 2022-01-23 07:59:00
+Quantity: 12.4 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-01-28 07:59:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-13 07:14:00
+Thats 15 days 23:15:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-24 11:25:00 and 2022-02-10 12:38:00:
+
+               datetime resource_id resource_name unit  sold
+318 2022-01-24 11:25:00         420    strawberry   kg   3.3
+359 2022-01-27 12:21:00         420    strawberry   kg   1.0
+395 2022-01-30 10:38:00         420    strawberry   kg   0.3
+475 2022-02-02 12:15:00         420    strawberry   kg   5.7
+491 2022-02-03 10:27:00         420    strawberry   kg   0.7
+495 2022-02-03 13:43:00         420    strawberry   kg   1.3
+516 2022-02-04 17:48:00         420    strawberry   kg   2.9
+538 2022-02-06 15:00:00         420    strawberry   kg   3.5
+572 2022-02-07 13:59:00         420    strawberry   kg   1.7
+585 2022-02-07 18:24:00         420    strawberry   kg   3.1
+607 2022-02-09 12:16:00         420    strawberry   kg   0.3
+613 2022-02-10 09:49:00         420    strawberry   kg   0.7
+618 2022-02-10 12:38:00         420    strawberry   kg   3.8
+
+
+Sellings total: 28.300000000000004 kgs were sold.
+Calculated waste: -15.900000000000004 on: 2022-01-28 07:59:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+318 2022-01-24 11:25:00         420    strawberry   kg  1.223077
+359 2022-01-27 12:21:00         420    strawberry   kg  1.223077
+395 2022-01-30 10:38:00         420    strawberry   kg  1.223077
+475 2022-02-02 12:15:00         420    strawberry   kg  1.223077
+491 2022-02-03 10:27:00         420    strawberry   kg  1.223077
+495 2022-02-03 13:43:00         420    strawberry   kg  1.223077
+516 2022-02-04 17:48:00         420    strawberry   kg  1.223077
+538 2022-02-06 15:00:00         420    strawberry   kg  1.223077
+572 2022-02-07 13:59:00         420    strawberry   kg  1.223077
+585 2022-02-07 18:24:00         420    strawberry   kg  1.223077
+607 2022-02-09 12:16:00         420    strawberry   kg  1.223077
+613 2022-02-10 09:49:00         420    strawberry   kg  1.223077
+618 2022-02-10 12:38:00         420    strawberry   kg  1.223077
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: onion delivered on 2022-01-23 08:00:00
+Quantity: 9.9 kgs
+Average shelf life: 180 days
+Should all be sold by: 2022-07-22 08:00:00
+
+List of sellings taken into account between: 2022-01-25 13:02:00 and 2022-02-13 11:06:00:
+
+               datetime resource_id resource_name unit      sold
+321 2022-01-25 13:02:00         41d         onion   kg  1.466667
+597 2022-02-09 18:31:00         41d         onion   kg  1.466667
+621 2022-02-10 13:15:00         41d         onion   kg  1.466667
+632 2022-02-10 18:23:00         41d         onion   kg  1.466667
+643 2022-02-13 11:06:00         41d         onion   kg  1.466667
+
+
+Sellings total: 7.333333333333334 kgs were sold.
+Calculated waste: 2.5666666666666664 on: 2022-07-22 08:00:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: lemon delivered on 2022-01-30 05:03:00
+Quantity: 19.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 05:03:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-27 07:56:00
+Thats 21 days 02:53:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-01 10:07:00 and 2022-02-24 15:47:00:
+
+               datetime resource_id resource_name unit  sold
+450 2022-02-01 10:07:00         424         lemon   kg   0.9
+478 2022-02-02 10:41:00         424         lemon   kg   1.2
+452 2022-02-02 16:02:00         424         lemon   kg   0.5
+453 2022-02-02 18:12:00         424         lemon   kg   5.3
+503 2022-02-03 16:00:00         424         lemon   kg   5.6
+487 2022-02-03 17:02:00         424         lemon   kg   1.5
+528 2022-02-04 11:33:00         424         lemon   kg   0.3
+522 2022-02-04 15:54:00         424         lemon   kg   5.5
+596 2022-02-09 15:16:00         424         lemon   kg   0.9
+785 2022-02-22 18:38:00         424         lemon   kg   1.4
+823 2022-02-24 15:47:00         424         lemon   kg   1.2
+
+
+Sellings total: 24.299999999999994 kgs were sold.
+Calculated waste: -4.399999999999995 on: 2022-02-06 05:03:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit  sold
+450 2022-02-01 10:07:00         424         lemon   kg   0.4
+478 2022-02-02 10:41:00         424         lemon   kg   0.4
+452 2022-02-02 16:02:00         424         lemon   kg   0.4
+453 2022-02-02 18:12:00         424         lemon   kg   0.4
+503 2022-02-03 16:00:00         424         lemon   kg   0.4
+487 2022-02-03 17:02:00         424         lemon   kg   0.4
+528 2022-02-04 11:33:00         424         lemon   kg   0.4
+522 2022-02-04 15:54:00         424         lemon   kg   0.4
+596 2022-02-09 15:16:00         424         lemon   kg   0.4
+785 2022-02-22 18:38:00         424         lemon   kg   0.4
+823 2022-02-24 15:47:00         424         lemon   kg   0.4
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: grape delivered on 2022-01-30 05:07:00
+Quantity: 19.9 kgs
+Average shelf life: 35 days
+Should all be sold by: 2022-03-06 05:07:00
+
+List of sellings taken into account between: 2022-01-30 13:26:00 and 2022-02-24 12:30:00:
+
+               datetime resource_id resource_name unit  sold
+404 2022-01-30 13:26:00         43d         grape   kg   0.4
+449 2022-02-01 14:51:00         43d         grape   kg   0.7
+448 2022-02-01 17:59:00         43d         grape   kg   2.9
+470 2022-02-02 11:12:00         43d         grape   kg   1.7
+537 2022-02-06 13:43:00         43d         grape   kg   1.3
+559 2022-02-06 18:27:00         43d         grape   kg   1.9
+595 2022-02-08 10:19:00         43d         grape   kg   4.2
+660 2022-02-13 18:42:00         43d         grape   kg   3.9
+731 2022-02-18 09:33:00         43d         grape   kg   0.3
+804 2022-02-24 12:30:00         43d         grape   kg   2.0
+
+
+Sellings total: 19.3 kgs were sold.
+Calculated waste: 0.5999999999999979 on: 2022-03-06 05:07:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: blueberry delivered on 2022-01-30 05:08:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 05:08:00
+
+List of sellings taken into account between: 2022-01-31 14:16:00 and 2022-02-04 10:48:00:
+
+               datetime resource_id resource_name unit  sold
+407 2022-01-31 14:16:00         42b     blueberry   kg   0.7
+419 2022-01-31 15:58:00         42b     blueberry   kg   0.5
+437 2022-02-01 15:27:00         42b     blueberry   kg   0.5
+459 2022-02-02 09:39:00         42b     blueberry   kg   3.8
+454 2022-02-02 18:44:00         42b     blueberry   kg   0.3
+482 2022-02-03 14:22:00         42b     blueberry   kg   0.7
+515 2022-02-04 10:04:00         42b     blueberry   kg   0.5
+518 2022-02-04 10:48:00         42b     blueberry   kg   0.3
+
+
+Sellings total: 7.3 kgs were sold.
+Calculated waste: 2.6000000000000005 on: 2022-02-06 05:08:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: caper delivered on 2022-01-30 05:13:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 05:13:00
+
+List of sellings taken into account between: 2022-02-02 09:44:00 and 2022-02-03 15:53:00:
+
+               datetime resource_id resource_name unit  sold
+464 2022-02-02 09:44:00         418         caper   kg   0.4
+469 2022-02-02 17:34:00         418         caper   kg   0.3
+499 2022-02-03 11:28:00         418         caper   kg   4.8
+490 2022-02-03 15:53:00         418         caper   kg   4.9
+
+
+Sellings total: 10.4 kgs were sold.
+Calculated waste: -0.5 on: 2022-02-06 05:13:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit   sold
+464 2022-02-02 09:44:00         418         caper   kg  0.125
+469 2022-02-02 17:34:00         418         caper   kg  0.125
+499 2022-02-03 11:28:00         418         caper   kg  0.125
+490 2022-02-03 15:53:00         418         caper   kg  0.125
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: avocado delivered on 2022-01-30 05:15:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 05:15:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-06 06:07:00
+Thats 0 days 00:52:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-02 11:22:00 and 2022-02-04 11:31:00:
+
+               datetime resource_id resource_name unit  sold
+477 2022-02-02 11:22:00         415       avocado   kg   5.5
+466 2022-02-02 11:53:00         415       avocado   kg   0.9
+507 2022-02-04 11:31:00         415       avocado   kg   0.4
+
+
+Sellings total: 6.800000000000001 kgs were sold.
+Calculated waste: 0.5999999999999996 on: 2022-02-06 05:15:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: parsley delivered on 2022-01-30 05:41:00
+Quantity: nan kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 05:41:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-13 06:21:00
+Thats 7 days 00:40:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-30 10:29:00 and 2022-02-10 17:03:00:
+
+               datetime resource_id resource_name unit  sold
+402 2022-01-30 10:29:00         438       parsley   kg   4.6
+405 2022-01-30 16:00:00         438       parsley   kg   0.7
+393 2022-01-30 17:15:00         438       parsley   kg   0.4
+440 2022-02-01 16:04:00         438       parsley   kg   0.5
+463 2022-02-02 15:32:00         438       parsley   kg   0.9
+461 2022-02-02 16:20:00         438       parsley   kg   4.2
+510 2022-02-04 17:30:00         438       parsley   kg   0.5
+549 2022-02-06 16:37:00         438       parsley   kg   0.9
+566 2022-02-07 18:59:00         438       parsley   kg   3.1
+626 2022-02-10 17:03:00         438       parsley   kg   4.3
+
+
+Sellings total: 20.099999999999998 kgs were sold.
+Calculated waste: 0 on: 2022-02-06 05:41:00
+
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: carrot delivered on 2022-01-30 05:55:00
+Quantity: 9.9 kgs
+Average shelf life: 200 days
+Should all be sold by: 2022-08-18 05:55:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-08-18 05:55:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: caper delivered on 2022-01-30 06:00:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 06:00:00
+
+List of sellings taken into account between: 2022-02-02 09:44:00 and 2022-02-03 15:53:00:
+
+               datetime resource_id resource_name unit   sold
+464 2022-02-02 09:44:00         418         caper   kg  0.125
+469 2022-02-02 17:34:00         418         caper   kg  0.125
+499 2022-02-03 11:28:00         418         caper   kg  0.125
+490 2022-02-03 15:53:00         418         caper   kg  0.125
+
+
+Sellings total: 0.5 kgs were sold.
+Calculated waste: 6.9 on: 2022-02-06 06:00:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: melon delivered on 2022-01-30 06:08:00
+Quantity: 9.9 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-02-13 06:08:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-13 07:08:00
+Thats 0 days 01:00:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-06 12:13:00 and 2022-02-07 11:34:00:
+
+               datetime resource_id resource_name unit  sold
+550 2022-02-06 12:13:00         42a         melon   kg   0.3
+571 2022-02-07 11:34:00         42a         melon   kg   0.9
+
+
+Sellings total: 1.2 kgs were sold.
+Calculated waste: 8.700000000000001 on: 2022-02-13 06:08:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: tangerine delivered on 2022-01-30 06:24:00
+Quantity: 19.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 06:24:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-20 06:03:00
+Thats 13 days 23:39:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-06 10:50:00 and 2022-02-18 14:47:00:
+
+               datetime resource_id resource_name unit  sold
+551 2022-02-06 10:50:00         425     tangerine   kg   4.4
+627 2022-02-10 09:10:00         425     tangerine   kg   1.0
+637 2022-02-11 00:00:00         425     tangerine   kg   0.9
+657 2022-02-13 16:12:00         425     tangerine   kg   2.7
+735 2022-02-18 14:47:00         425     tangerine   kg   0.9
+
+
+Sellings total: 9.9 kgs were sold.
+Calculated waste: 9.999999999999998 on: 2022-02-06 06:24:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: zuchini delivered on 2022-01-30 06:40:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 06:40:00
+
+List of sellings taken into account between: 2022-02-01 13:37:00 and 2022-02-02 15:52:00:
+
+               datetime resource_id resource_name unit  sold
+435 2022-02-01 13:37:00         43f       zuchini   kg   3.7
+436 2022-02-01 13:42:00         43f       zuchini   kg   0.7
+442 2022-02-01 15:24:00         43f       zuchini   kg   0.3
+445 2022-02-01 18:09:00         43f       zuchini   kg   2.0
+462 2022-02-02 15:52:00         43f       zuchini   kg   2.9
+
+
+Sellings total: 9.6 kgs were sold.
+Calculated waste: 2.8000000000000007 on: 2022-02-06 06:40:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: banana delivered on 2022-01-30 06:59:00
+Quantity: 14.9 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-02-04 06:59:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-06 07:57:00
+Thats 2 days 00:58:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-31 13:49:00 and 2022-02-04 14:41:00:
+
+               datetime resource_id resource_name unit  sold
+423 2022-01-31 13:49:00         416        banana   kg   0.4
+523 2022-02-04 13:13:00         416        banana   kg   1.4
+521 2022-02-04 14:41:00         416        banana   kg   0.6
+
+
+Sellings total: 2.4 kgs were sold.
+Calculated waste: 12.5 on: 2022-02-04 06:59:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: raspberry delivered on 2022-01-30 07:15:00
+Quantity: 12.4 kgs
+Average shelf life: 2 days
+Should all be sold by: 2022-02-01 07:15:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-02-01 07:15:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: celery delivered on 2022-01-30 07:16:00
+Quantity: 7.4 kgs
+Average shelf life: 60 days
+Should all be sold by: 2022-03-31 07:16:00
+
+List of sellings taken into account between: 2022-02-04 15:34:00 and 2022-02-25 09:17:00:
+
+               datetime resource_id resource_name unit  sold
+509 2022-02-04 15:34:00         43b        celery   kg   3.0
+583 2022-02-07 10:34:00         43b        celery   kg   4.0
+574 2022-02-07 13:56:00         43b        celery   kg   0.9
+651 2022-02-13 11:09:00         43b        celery   kg   0.4
+692 2022-02-15 10:34:00         43b        celery   kg   4.6
+696 2022-02-15 16:07:00         43b        celery   kg   2.3
+833 2022-02-25 09:17:00         43b        celery   kg   4.2
+
+
+Sellings total: 19.4 kgs were sold.
+Calculated waste: -11.999999999999998 on: 2022-03-31 07:16:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+509 2022-02-04 15:34:00         43b        celery   kg  1.714286
+583 2022-02-07 10:34:00         43b        celery   kg  1.714286
+574 2022-02-07 13:56:00         43b        celery   kg  1.714286
+651 2022-02-13 11:09:00         43b        celery   kg  1.714286
+692 2022-02-15 10:34:00         43b        celery   kg  1.714286
+696 2022-02-15 16:07:00         43b        celery   kg  1.714286
+833 2022-02-25 09:17:00         43b        celery   kg  1.714286
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: pear delivered on 2022-01-30 07:18:00
+Quantity: 19.9 kgs
+Average shelf life: 150 days
+Should all be sold by: 2022-06-29 07:18:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 19.9 on: 2022-06-29 07:18:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: blueberry delivered on 2022-01-30 07:32:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 07:32:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-20 07:01:00
+Thats 13 days 23:29:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-07 09:04:00 and 2022-02-17 14:59:00:
+
+               datetime resource_id resource_name unit  sold
+580 2022-02-07 09:04:00         42b     blueberry   kg   1.7
+628 2022-02-10 09:29:00         42b     blueberry   kg   0.9
+713 2022-02-17 14:59:00         42b     blueberry   kg   1.5
+
+
+Sellings total: 4.1 kgs were sold.
+Calculated waste: 3.3000000000000007 on: 2022-02-06 07:32:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: pumpkin delivered on 2022-01-30 07:33:00
+Quantity: 19.9 kgs
+Average shelf life: 60 days
+Should all be sold by: 2022-03-31 07:33:00
+
+List of sellings taken into account between: 2022-02-01 16:33:00 and 2022-02-25 18:46:00:
+
+               datetime resource_id resource_name unit   sold
+433 2022-02-01 16:33:00         43e       pumpkin   kg  0.325
+525 2022-02-04 14:10:00         43e       pumpkin   kg  0.325
+552 2022-02-06 17:08:00         43e       pumpkin   kg  0.325
+665 2022-02-13 14:26:00         43e       pumpkin   kg  0.325
+717 2022-02-18 09:54:00         43e       pumpkin   kg  0.325
+798 2022-02-23 11:40:00         43e       pumpkin   kg  0.325
+809 2022-02-24 18:37:00         43e       pumpkin   kg  0.325
+824 2022-02-25 18:46:00         43e       pumpkin   kg  0.325
+
+
+Sellings total: 2.6000000000000014 kgs were sold.
+Calculated waste: 17.299999999999997 on: 2022-03-31 07:33:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: sweetpepper delivered on 2022-01-30 07:51:00
+Quantity: 14.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-06 07:51:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-20 05:24:00
+Thats 13 days 21:33:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-01-30 18:50:00 and 2022-02-17 17:38:00:
+
+               datetime resource_id resource_name unit  sold
+392 2022-01-30 18:50:00         433   sweetpepper   kg   1.7
+434 2022-02-01 16:18:00         433   sweetpepper   kg   4.9
+514 2022-02-04 13:40:00         433   sweetpepper   kg   3.1
+646 2022-02-13 18:22:00         433   sweetpepper   kg   3.2
+703 2022-02-16 09:27:00         433   sweetpepper   kg   2.5
+710 2022-02-17 17:38:00         433   sweetpepper   kg   0.5
+
+
+Sellings total: 15.900000000000002 kgs were sold.
+Calculated waste: -1.0000000000000018 on: 2022-02-06 07:51:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+392 2022-01-30 18:50:00         433   sweetpepper   kg  0.166667
+434 2022-02-01 16:18:00         433   sweetpepper   kg  0.166667
+514 2022-02-04 13:40:00         433   sweetpepper   kg  0.166667
+646 2022-02-13 18:22:00         433   sweetpepper   kg  0.166667
+703 2022-02-16 09:27:00         433   sweetpepper   kg  0.166667
+710 2022-02-17 17:38:00         433   sweetpepper   kg  0.166667
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: pumpkin delivered on 2022-02-06 05:06:00
+Quantity: 9.9 kgs
+Average shelf life: 60 days
+Should all be sold by: 2022-04-07 05:06:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-04-07 05:06:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: avocado delivered on 2022-02-06 06:07:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-13 06:07:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-27 07:06:00
+Thats 14 days 00:59:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-06 13:00:00 and 2022-02-22 11:25:00:
+
+               datetime resource_id resource_name unit  sold
+539 2022-02-06 13:00:00         415       avocado   kg   2.2
+587 2022-02-07 18:50:00         415       avocado   kg   2.9
+633 2022-02-11 15:18:00         415       avocado   kg   4.2
+641 2022-02-11 16:21:00         415       avocado   kg   1.5
+705 2022-02-16 11:14:00         415       avocado   kg   0.7
+760 2022-02-21 13:29:00         415       avocado   kg   2.2
+774 2022-02-22 11:25:00         415       avocado   kg   0.9
+
+
+Sellings total: 14.6 kgs were sold.
+Calculated waste: 2.799999999999999 on: 2022-02-13 06:07:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: apricot delivered on 2022-02-06 06:22:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-13 06:22:00
+
+List of sellings taken into account between: 2022-02-06 10:48:00 and 2022-02-10 14:41:00:
+
+               datetime resource_id resource_name unit  sold
+540 2022-02-06 10:48:00         410       apricot   kg   1.2
+543 2022-02-06 17:19:00         410       apricot   kg   2.7
+629 2022-02-10 14:41:00         410       apricot   kg   3.4
+
+
+Sellings total: 7.300000000000001 kgs were sold.
+Calculated waste: 2.5999999999999996 on: 2022-02-13 06:22:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: garlic delivered on 2022-02-06 06:24:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-13 06:24:00
+
+List of sellings taken into account between: 2022-02-07 12:18:00 and 2022-02-08 10:47:00:
+
+               datetime resource_id resource_name unit  sold
+565 2022-02-07 12:18:00         40f        garlic   kg   2.9
+590 2022-02-08 10:47:00         40f        garlic   kg   3.3
+
+
+Sellings total: 6.199999999999999 kgs were sold.
+Calculated waste: 11.2 on: 2022-02-13 06:24:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: cherry delivered on 2022-02-06 06:29:00
+Quantity: 9.9 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-02-20 06:29:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-20 08:00:00
+Thats 0 days 01:31:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-06 13:45:00 and 2022-02-18 11:53:00:
+
+               datetime resource_id resource_name unit  sold
+558 2022-02-06 13:45:00         41c        cherry   kg   2.4
+661 2022-02-13 11:04:00         41c        cherry   kg   1.6
+683 2022-02-15 11:41:00         41c        cherry   kg   0.4
+678 2022-02-15 15:35:00         41c        cherry   kg   0.9
+698 2022-02-15 15:42:00         41c        cherry   kg   2.2
+709 2022-02-17 18:52:00         41c        cherry   kg   1.5
+726 2022-02-18 11:53:00         41c        cherry   kg   0.3
+
+
+Sellings total: 9.3 kgs were sold.
+Calculated waste: 0.5999999999999996 on: 2022-02-20 06:29:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: fig delivered on 2022-02-06 06:32:00
+Quantity: 7.4 kgs
+Average shelf life: 30 days
+Should all be sold by: 2022-03-08 06:32:00
+
+List of sellings taken into account between: 2022-02-07 14:40:00 and 2022-02-25 10:09:00:
+
+               datetime resource_id resource_name unit      sold
+562 2022-02-07 14:40:00         41f           fig   kg  1.461538
+606 2022-02-09 17:29:00         41f           fig   kg  1.461538
+631 2022-02-10 12:51:00         41f           fig   kg  1.461538
+636 2022-02-11 09:30:00         41f           fig   kg  1.461538
+649 2022-02-13 11:40:00         41f           fig   kg  1.461538
+724 2022-02-18 15:45:00         41f           fig   kg  1.461538
+746 2022-02-20 09:58:00         41f           fig   kg  1.461538
+771 2022-02-22 10:09:00         41f           fig   kg  0.700000
+828 2022-02-25 10:09:00         41f           fig   kg  0.600000
+
+
+Sellings total: 11.530769230769229 kgs were sold.
+Calculated waste: -4.1307692307692285 on: 2022-03-08 06:32:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+562 2022-02-07 14:40:00         41f           fig   kg  0.458974
+606 2022-02-09 17:29:00         41f           fig   kg  0.458974
+631 2022-02-10 12:51:00         41f           fig   kg  0.458974
+636 2022-02-11 09:30:00         41f           fig   kg  0.458974
+649 2022-02-13 11:40:00         41f           fig   kg  0.458974
+724 2022-02-18 15:45:00         41f           fig   kg  0.458974
+746 2022-02-20 09:58:00         41f           fig   kg  0.458974
+771 2022-02-22 10:09:00         41f           fig   kg  0.458974
+828 2022-02-25 10:09:00         41f           fig   kg  0.458974
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: carrot delivered on 2022-02-06 06:42:00
+Quantity: 12.4 kgs
+Average shelf life: 200 days
+Should all be sold by: 2022-08-25 06:42:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-08-25 06:42:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: pear delivered on 2022-02-06 06:51:00
+Quantity: 14.9 kgs
+Average shelf life: 150 days
+Should all be sold by: 2022-07-06 06:51:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 14.9 on: 2022-07-06 06:51:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: onion delivered on 2022-02-06 07:20:00
+Quantity: 9.9 kgs
+Average shelf life: 180 days
+Should all be sold by: 2022-08-05 07:20:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-08-05 07:20:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: blueraspberry delivered on 2022-02-06 07:21:00
+Quantity: 14.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-13 07:21:00
+
+List of sellings taken into account between: 2022-02-07 12:27:00 and 2022-02-09 12:27:00:
+
+               datetime resource_id  resource_name unit  sold
+570 2022-02-07 12:27:00         42c  blueraspberry   kg   0.4
+603 2022-02-09 12:27:00         42c  blueraspberry   kg   0.5
+
+
+Sellings total: 0.9 kgs were sold.
+Calculated waste: 14.0 on: 2022-02-13 07:21:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: chicory delivered on 2022-02-06 07:31:00
+Quantity: 14.9 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-02-11 07:31:00
+
+List of sellings taken into account between: 2022-02-09 16:34:00 and 2022-02-10 09:09:00:
+
+               datetime resource_id resource_name unit  sold
+598 2022-02-09 16:34:00         439       chicory   kg   1.0
+630 2022-02-10 09:09:00         439       chicory   kg   0.7
+
+
+Sellings total: 1.7 kgs were sold.
+Calculated waste: 13.200000000000001 on: 2022-02-11 07:31:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: medlar delivered on 2022-02-06 07:49:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-13 07:49:00
+
+List of sellings taken into account between: 2022-02-06 15:02:00 and 2022-02-10 12:11:00:
+
+               datetime resource_id resource_name unit  sold
+545 2022-02-06 15:02:00         42d        medlar   kg   0.7
+612 2022-02-10 09:52:00         42d        medlar   kg   1.6
+616 2022-02-10 12:11:00         42d        medlar   kg   4.2
+
+
+Sellings total: 6.5 kgs were sold.
+Calculated waste: 3.4000000000000004 on: 2022-02-13 07:49:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: banana delivered on 2022-02-06 07:57:00
+Quantity: 19.9 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-02-11 07:57:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-27 07:27:00
+Thats 15 days 23:30:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-07 17:14:00 and 2022-02-25 18:11:00:
+
+               datetime resource_id resource_name unit  sold
+581 2022-02-07 17:14:00         416        banana   kg   0.6
+601 2022-02-09 13:38:00         416        banana   kg   0.9
+750 2022-02-20 09:21:00         416        banana   kg   0.6
+759 2022-02-20 12:19:00         416        banana   kg   3.8
+782 2022-02-22 12:16:00         416        banana   kg   3.4
+840 2022-02-25 18:11:00         416        banana   kg   5.4
+
+
+Sellings total: 14.700000000000001 kgs were sold.
+Calculated waste: 5.1999999999999975 on: 2022-02-11 07:57:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: persimmon delivered on 2022-02-06 08:00:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-13 08:00:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-02-13 08:00:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: onion delivered on 2022-02-13 05:14:00
+Quantity: 9.9 kgs
+Average shelf life: 180 days
+Should all be sold by: 2022-08-12 05:14:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-08-12 05:14:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: blueraspberry delivered on 2022-02-13 05:14:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-20 05:14:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-20 05:47:00
+Thats 0 days 00:33:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-14 10:37:00 and 2022-02-18 18:01:00:
+
+               datetime resource_id  resource_name unit  sold
+672 2022-02-14 10:37:00         42c  blueraspberry   kg   2.3
+691 2022-02-15 12:26:00         42c  blueraspberry   kg   0.7
+685 2022-02-15 14:42:00         42c  blueraspberry   kg   1.2
+704 2022-02-16 18:58:00         42c  blueraspberry   kg   2.1
+719 2022-02-18 18:01:00         42c  blueraspberry   kg   0.9
+
+
+Sellings total: 7.200000000000001 kgs were sold.
+Calculated waste: 5.199999999999999 on: 2022-02-20 05:14:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: garlic delivered on 2022-02-13 05:54:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-20 05:54:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-20 06:27:00
+Thats 0 days 00:33:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-13 17:56:00 and 2022-02-18 12:05:00:
+
+               datetime resource_id resource_name unit  sold
+647 2022-02-13 17:56:00         40f        garlic   kg   0.4
+701 2022-02-16 10:39:00         40f        garlic   kg   1.2
+736 2022-02-18 12:05:00         40f        garlic   kg   4.6
+
+
+Sellings total: 6.199999999999999 kgs were sold.
+Calculated waste: 6.200000000000001 on: 2022-02-20 05:54:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: cucumber delivered on 2022-02-13 06:11:00
+Quantity: 14.9 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-02-23 06:11:00
+
+List of sellings taken into account between: 2022-02-17 18:43:00 and 2022-02-22 16:58:00:
+
+               datetime resource_id resource_name unit  sold
+715 2022-02-17 18:43:00         41b      cucumber   kg   0.9
+784 2022-02-22 16:58:00         41b      cucumber   kg   1.0
+
+
+Sellings total: 1.9 kgs were sold.
+Calculated waste: 13.0 on: 2022-02-23 06:11:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: tomato delivered on 2022-02-13 06:14:00
+Quantity: 7.4 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-02-18 06:14:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-02-18 06:14:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: pumpkin delivered on 2022-02-13 06:16:00
+Quantity: 7.4 kgs
+Average shelf life: 60 days
+Should all be sold by: 2022-04-14 06:16:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-04-14 06:16:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: parsley delivered on 2022-02-13 06:21:00
+Quantity: 19.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-20 06:21:00
+
+List of sellings taken into account between: 2022-02-16 12:48:00 and 2022-02-16 12:48:00:
+
+               datetime resource_id resource_name unit  sold
+706 2022-02-16 12:48:00         438       parsley   kg   0.7
+
+
+Sellings total: 0.7 kgs were sold.
+Calculated waste: 19.2 on: 2022-02-20 06:21:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: parsley delivered on 2022-02-13 06:29:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-20 06:29:00
+
+The data shows sellings after assumed shelf life which should be taken into account calculating the waste.
+All sellings until next purchase will be taken into account: 2022-02-27 05:20:00
+Thats 6 days 22:51:00 after the expected shelf life.
+If that seems unrealistic maybe shelf life should be adjusted ...
+
+List of sellings taken into account between: 2022-02-23 13:54:00 and 2022-02-25 18:37:00:
+
+               datetime resource_id resource_name unit  sold
+797 2022-02-23 13:54:00         438       parsley   kg   5.3
+842 2022-02-25 18:37:00         438       parsley   kg   3.1
+
+
+Sellings total: 8.4 kgs were sold.
+Calculated waste: 4.0 on: 2022-02-20 06:29:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: cucumber delivered on 2022-02-13 07:02:00
+Quantity: 12.4 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-02-23 07:02:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-02-23 07:02:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: melon delivered on 2022-02-13 07:08:00
+Quantity: 7.4 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-02-27 07:08:00
+
+List of sellings taken into account between: 2022-02-13 16:26:00 and 2022-02-23 14:09:00:
+
+               datetime resource_id resource_name unit  sold
+664 2022-02-13 16:26:00         42a         melon   kg   0.4
+694 2022-02-15 13:52:00         42a         melon   kg   0.7
+737 2022-02-18 10:57:00         42a         melon   kg   2.9
+748 2022-02-20 13:00:00         42a         melon   kg   0.6
+757 2022-02-20 14:22:00         42a         melon   kg   0.6
+752 2022-02-20 14:54:00         42a         melon   kg   0.3
+791 2022-02-23 14:09:00         42a         melon   kg   5.5
+
+
+Sellings total: 11.0 kgs were sold.
+Calculated waste: -3.5999999999999996 on: 2022-02-27 07:08:00
+
+The data shows that more was sold then purchased. So we dont throw anything away actually.
+We redistribute the sellings amount below zero evenly on the original selling dates.
+So they can be taken into account calculating the waste of a potential later delivery.
+
+               datetime resource_id resource_name unit      sold
+664 2022-02-13 16:26:00         42a         melon   kg  0.514286
+694 2022-02-15 13:52:00         42a         melon   kg  0.514286
+737 2022-02-18 10:57:00         42a         melon   kg  0.514286
+748 2022-02-20 13:00:00         42a         melon   kg  0.514286
+757 2022-02-20 14:22:00         42a         melon   kg  0.514286
+752 2022-02-20 14:54:00         42a         melon   kg  0.514286
+791 2022-02-23 14:09:00         42a         melon   kg  0.514286
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: strawberry delivered on 2022-02-13 07:14:00
+Quantity: 12.4 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-02-18 07:14:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-02-18 07:14:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: carrot delivered on 2022-02-13 07:22:00
+Quantity: 7.4 kgs
+Average shelf life: 200 days
+Should all be sold by: 2022-09-01 07:22:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-09-01 07:22:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: spinach delivered on 2022-02-13 07:28:00
+Quantity: 19.9 kgs
+Average shelf life: 10 days
+Should all be sold by: 2022-02-23 07:28:00
+
+List of sellings taken into account between: 2022-02-15 09:12:00 and 2022-02-15 12:23:00:
+
+               datetime resource_id resource_name unit  sold
+684 2022-02-15 09:12:00         43c       spinach   kg   1.5
+695 2022-02-15 12:23:00         43c       spinach   kg   0.7
+
+
+Sellings total: 2.2 kgs were sold.
+Calculated waste: 17.7 on: 2022-02-23 07:28:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: grape delivered on 2022-02-13 07:55:00
+Quantity: 7.4 kgs
+Average shelf life: 35 days
+Should all be sold by: 2022-03-20 07:55:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-03-20 07:55:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: olive delivered on 2022-02-20 05:19:00
+Quantity: 17.4 kgs
+Average shelf life: 30 days
+Should all be sold by: 2022-03-22 05:19:00
+
+List of sellings taken into account between: 2022-02-20 12:20:00 and 2022-02-20 12:20:00:
+
+               datetime resource_id resource_name unit  sold
+747 2022-02-20 12:20:00         42f         olive   kg   1.5
+
+
+Sellings total: 1.5 kgs were sold.
+Calculated waste: 15.899999999999999 on: 2022-03-22 05:19:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: sweetpepper delivered on 2022-02-20 05:24:00
+Quantity: 12.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 05:24:00
+
+List of sellings taken into account between: 2022-02-23 12:40:00 and 2022-02-24 18:58:00:
+
+               datetime resource_id resource_name unit  sold
+792 2022-02-23 12:40:00         433   sweetpepper   kg   0.4
+810 2022-02-24 18:58:00         433   sweetpepper   kg   1.2
+
+
+Sellings total: 1.6 kgs were sold.
+Calculated waste: 10.8 on: 2022-02-27 05:24:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: blueraspberry delivered on 2022-02-20 05:47:00
+Quantity: 14.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 05:47:00
+
+List of sellings taken into account between: 2022-02-22 15:59:00 and 2022-02-22 15:59:00:
+
+               datetime resource_id  resource_name unit  sold
+772 2022-02-22 15:59:00         42c  blueraspberry   kg   3.6
+
+
+Sellings total: 3.6 kgs were sold.
+Calculated waste: 11.3 on: 2022-02-27 05:47:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: tangerine delivered on 2022-02-20 06:03:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 06:03:00
+
+List of sellings taken into account between: 2022-02-24 11:16:00 and 2022-02-24 11:16:00:
+
+               datetime resource_id resource_name unit  sold
+817 2022-02-24 11:16:00         425     tangerine   kg   1.2
+
+
+Sellings total: 1.2 kgs were sold.
+Calculated waste: 6.2 on: 2022-02-27 06:03:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: pear delivered on 2022-02-20 06:19:00
+Quantity: 9.9 kgs
+Average shelf life: 150 days
+Should all be sold by: 2022-07-20 06:19:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-07-20 06:19:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: lettuce delivered on 2022-02-20 06:23:00
+Quantity: 12.4 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-03-06 06:23:00
+
+List of sellings taken into account between: 2022-02-20 16:30:00 and 2022-02-20 16:30:00:
+
+               datetime resource_id resource_name unit  sold
+755 2022-02-20 16:30:00         423       lettuce   kg   0.6
+
+
+Sellings total: 0.6 kgs were sold.
+Calculated waste: 11.8 on: 2022-03-06 06:23:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: apple delivered on 2022-02-20 06:27:00
+Quantity: 7.4 kgs
+Average shelf life: 250 days
+Should all be sold by: 2022-10-28 06:27:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-10-28 06:27:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: garlic delivered on 2022-02-20 06:27:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 06:27:00
+
+List of sellings taken into account between: 2022-02-24 10:45:00 and 2022-02-25 13:31:00:
+
+               datetime resource_id resource_name unit  sold
+802 2022-02-24 10:45:00         40f        garlic   kg   0.7
+832 2022-02-25 13:31:00         40f        garlic   kg   5.5
+
+
+Sellings total: 6.2 kgs were sold.
+Calculated waste: 3.7 on: 2022-02-27 06:27:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: blueraspberry delivered on 2022-02-20 06:32:00
+Quantity: 14.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 06:32:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 14.9 on: 2022-02-27 06:32:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: kiwi delivered on 2022-02-20 06:36:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 06:36:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-02-27 06:36:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: olive delivered on 2022-02-20 06:44:00
+Quantity: 12.4 kgs
+Average shelf life: 30 days
+Should all be sold by: 2022-03-22 06:44:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-03-22 06:44:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: pumpkin delivered on 2022-02-20 06:59:00
+Quantity: 12.4 kgs
+Average shelf life: 60 days
+Should all be sold by: 2022-04-21 06:59:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-04-21 06:59:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: lettuce delivered on 2022-02-20 06:59:00
+Quantity: nan kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-03-06 06:59:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 0 on: 2022-03-06 06:59:00
+
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: blueberry delivered on 2022-02-20 07:01:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 07:01:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-02-27 07:01:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: onion delivered on 2022-02-20 07:04:00
+Quantity: 9.9 kgs
+Average shelf life: 180 days
+Should all be sold by: 2022-08-19 07:04:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-08-19 07:04:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: olive delivered on 2022-02-20 07:49:00
+Quantity: 14.9 kgs
+Average shelf life: 30 days
+Should all be sold by: 2022-03-22 07:49:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 14.9 on: 2022-03-22 07:49:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: pomegranate delivered on 2022-02-20 07:53:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-02-27 07:53:00
+
+List of sellings taken into account between: 2022-02-24 15:32:00 and 2022-02-24 17:37:00:
+
+               datetime resource_id resource_name unit  sold
+814 2022-02-24 15:32:00         429   pomegranate   kg   1.7
+806 2022-02-24 17:37:00         429   pomegranate   kg   2.5
+
+
+Sellings total: 4.2 kgs were sold.
+Calculated waste: 13.2 on: 2022-02-27 07:53:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: cherry delivered on 2022-02-20 08:00:00
+Quantity: 12.4 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-03-06 08:00:00
+
+List of sellings taken into account between: 2022-02-21 14:52:00 and 2022-02-25 11:08:00:
+
+               datetime resource_id resource_name unit  sold
+764 2022-02-21 14:52:00         41c        cherry   kg   0.7
+801 2022-02-23 16:33:00         41c        cherry   kg   1.2
+821 2022-02-24 13:53:00         41c        cherry   kg   0.7
+829 2022-02-25 11:08:00         41c        cherry   kg   0.9
+
+
+Sellings total: 3.4999999999999996 kgs were sold.
+Calculated waste: 8.9 on: 2022-03-06 08:00:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: blackcherry delivered on 2022-02-27 05:04:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 05:04:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 17.4 on: 2022-03-06 05:04:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: parsley delivered on 2022-02-27 05:20:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 05:20:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-03-06 05:20:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: carrot delivered on 2022-02-27 05:41:00
+Quantity: 14.9 kgs
+Average shelf life: 200 days
+Should all be sold by: 2022-09-15 05:41:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 14.9 on: 2022-09-15 05:41:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: blackcherry delivered on 2022-02-27 06:11:00
+Quantity: 7.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 06:11:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-03-06 06:11:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: cherry delivered on 2022-02-27 06:25:00
+Quantity: nan kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-03-13 06:25:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 0 on: 2022-03-13 06:25:00
+
+
+Bravo. Zero waste on this delivery.
+
+---
+
+
+---
+Waste report for Product: apple delivered on 2022-02-27 06:45:00
+Quantity: 14.9 kgs
+Average shelf life: 250 days
+Should all be sold by: 2022-11-04 06:45:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 14.9 on: 2022-11-04 06:45:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: mango delivered on 2022-02-27 06:59:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 06:59:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-03-06 06:59:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: avocado delivered on 2022-02-27 07:06:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 07:06:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-03-06 07:06:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: cherry delivered on 2022-02-27 07:07:00
+Quantity: 9.9 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-03-13 07:07:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-03-13 07:07:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: cherry delivered on 2022-02-27 07:23:00
+Quantity: 17.4 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-03-13 07:23:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 17.4 on: 2022-03-13 07:23:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: avocado delivered on 2022-02-27 07:27:00
+Quantity: 9.9 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 07:27:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 9.9 on: 2022-03-06 07:27:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: banana delivered on 2022-02-27 07:27:00
+Quantity: 7.4 kgs
+Average shelf life: 5 days
+Should all be sold by: 2022-03-04 07:27:00
+
+List of sellings taken into account between: 2022-02-27 12:42:00 and 2022-02-27 12:42:00:
+
+               datetime resource_id resource_name unit  sold
+844 2022-02-27 12:42:00         416        banana   kg   0.5
+
+
+Sellings total: 0.5 kgs were sold.
+Calculated waste: 6.9 on: 2022-03-04 07:27:00
+
+Waste event logged.
+
+---
+
+
+---
+Waste report for Product: potato delivered on 2022-02-27 07:32:00
+Quantity: 12.4 kgs
+Average shelf life: 120 days
+Should all be sold by: 2022-06-27 07:32:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 12.4 on: 2022-06-27 07:32:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: grape delivered on 2022-02-27 07:33:00
+Quantity: 7.4 kgs
+Average shelf life: 35 days
+Should all be sold by: 2022-04-03 07:33:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 7.4 on: 2022-04-03 07:33:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: pomegranate delivered on 2022-02-27 07:47:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 07:47:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 17.4 on: 2022-03-06 07:47:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: cherry delivered on 2022-02-27 07:49:00
+Quantity: 19.9 kgs
+Average shelf life: 14 days
+Should all be sold by: 2022-03-13 07:49:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 19.9 on: 2022-03-13 07:49:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
+
+
+---
+Waste report for Product: lemon delivered on 2022-02-27 07:56:00
+Quantity: 17.4 kgs
+Average shelf life: 7 days
+Should all be sold by: 2022-03-06 07:56:00
+
+Sellings total: 0.0 kgs were sold.
+Calculated waste: 17.4 on: 2022-03-06 07:56:00
+
+The calcualted waste event is to far in the future to be reliable. It will not be logged.
+Maybe there is potential for a predictive approach ...
+
+---
