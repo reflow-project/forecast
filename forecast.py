@@ -148,33 +148,33 @@ def make_pred(model, fut_pred, train_window, test_inputs):
 
 def df_test(resource, time_series):
     # Advanced Dickey-Fuller Test for stationariety
-    print(f'Results of Dickey-Fuller Test for {resource}:')
+    # print(f'Results of Dickey-Fuller Test for {resource}:')
     dftest = adfuller(time_series)
     
     dfoutput = pd.Series(dftest[0:4], index=['Test Statistic', 'p-value', '#Lags Used', 'Number of Observations Used'])
     
     if dfoutput['p-value'] < .05 :
-        print(f"{resource} data is stationary")    
+        # print(f"{resource} data is stationary")    
         return True
     
     for key, value in dftest[4].items():
         dfoutput['Critical Value (%s)' %key] = value
     
     print(f"{resource} data is NOT stationary")
-    print (dfoutput)
+    # print (dfoutput)
     return False
 
 def ses(train_set):
     ## auto optimization
     model = SimpleExpSmoothing(train_set)
     fit = model.fit()
-    print(fit.summary())
+    # print(fit.summary())
     return fit
 
 def arima(train_set):
     model = ARIMA(train_set, order=(2, 1, 0))
     fit = model.fit()
-    print(fit.summary())
+    # print(fit.summary())
     
     return fit
 
@@ -198,7 +198,7 @@ def sarima(train_set, m):
                         trace=False)
 
     fit = model.fit(train_set)
-    print(fit.summary())
+    # print(fit.summary())
     return fit.arima_res_
 
 def autoreg(train_set, test_set):
@@ -213,6 +213,7 @@ def autoreg(train_set, test_set):
     #################################################
     
     best_mse = 100000
+    best_mse_method = None
     best_resource = None
     best_ses_fcast = None
     best_arima_fcast = None
@@ -233,27 +234,33 @@ def autoreg(train_set, test_set):
             ses_fit = ses(train_resource)
             ses_fcast = ses_fit.forecast(len(test_resource))
             mse2 = ((ses_fcast - test_resource) ** 2).mean()
-            if best_mse > mse2:
+            # avoid trivial case where future sales are all zero
+            if max(test_resource) > 0 and best_mse > mse2:
                 best_mse = mse2
                 best_resource = resource
+                best_mse_method = 'ses'
                 updated = True
             # print(f"SES RMS Error (smoothing = {ses_fit.model.params['smoothing_level']}) is {round(np.sqrt(mse2), 2)}")
             
             arima_fit = arima(train_resource)
             arima_fcast = arima_fit.forecast(len(test_resource))
             mse2 = ((arima_fcast - test_resource) ** 2).mean()
-            if best_mse > mse2:
+            # avoid trivial case where future sales are all zero
+            if max(test_resource) > 0 and best_mse > mse2:
                 best_mse = mse2
                 best_resource = resource
+                best_mse_method = 'arima'
                 updated = True
             # print(f"ARIMA RMS Error is {round(np.sqrt(mse2), 2)}")
             
         sarima_fit = sarima(train_resource,7)
         sarima_fcast = sarima_fit.forecast(len(test_resource))
         mse2 = ((sarima_fcast - test_resource) ** 2).mean()
-        if best_mse > mse2:
+        # avoid trivial case where future sales are all zero
+        if max(test_resource) > 0 and best_mse > mse2:
                 best_mse = mse2
                 best_resource = resource
+                best_mse_method = 'sarima'
                 updated = True
         # print(f"SARIMA RMS Error is {round(np.sqrt(mse2), 2)}")
         if updated:
@@ -261,6 +268,7 @@ def autoreg(train_set, test_set):
             best_arima_fcast = arima_fcast
             best_sarima_fcast = sarima_fcast
         
+    print(f'Best MSE is {best_mse} with {best_mse_method}')
     solres_fig = plt.figure(num=best_resource)
     ax1 = solres_fig.add_subplot(1,1,1)
 
